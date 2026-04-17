@@ -1,11 +1,41 @@
 <!DOCTYPE html>
 <html lang="ja">
-  <head>
-    <meta charset="UTF-8" />
-    <title>JoyLinks</title>
-  </head>
-  <body>
-    <div id="root"></div>
-    <script src="/index.js"></script>
-  </body>
+<head>
+  <meta charset="UTF-8">
+  <title>JoyLinks</title>
+  <style>
+    body { font-family: sans-serif; margin: 0; background:#f5f7fa; }
+    header { background:#fff; padding:15px 30px; border-bottom:1px solid #ddd; }
+    .menu { display:flex; gap:20px; }
+    .menu div { cursor:pointer; font-weight:600; }
+    .container { padding:20px; }
+    .box { background:#fff; padding:15px; border-radius:10px; margin-bottom:15px; }
+  </style>
+</head>
+<body>
+
+<header>
+  <div class="menu">
+    <div>地域支援</div>
+    <div>福祉支援</div>
+    <div>ボランティア</div>
+    <div>相談・受付</div>
+    <div>資源管理</div>
+    <div>運営管理</div>
+  </div>
+</header>
+
+<div class="container">
+  <div class="box">
+    <h3>お知らせ</h3>
+    <p>システムメンテナンスのお知らせ</p>
+  </div>
+
+  <div class="box">
+    <h3>リリース情報</h3>
+    <p>新機能が追加されました</p>
+  </div>
+</div>
+
+</body>
 </html>
