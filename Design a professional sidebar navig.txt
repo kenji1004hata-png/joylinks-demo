@@ -1,0 +1,67 @@
+Design a professional sidebar navigation UI for a Japanese social welfare system (JoyLinks).
+
+IMPORTANT:
+Do NOT design a dashboard.
+Do NOT include cards, widgets, statistics, or content panels.
+Focus ONLY on the sidebar navigation.
+
+Layout:
+- Fixed vertical left sidebar
+- Width: 240px expanded / 64px collapsed
+- Collapsible (icon-only mode)
+- Maximize main content area
+
+Structure:
+Use the following exact grouped menu:
+
+[地域支援]
+- 地域活動
+- 見守り
+- 交流イベント
+
+[福祉支援]
+- 生活支援
+- 高齢者支援
+- 障がい支援
+
+[ボランティア]
+- 登録
+- 募集
+- 活動管理
+
+[相談・受付]
+- 相談登録
+- 対応履歴
+- 支援依頼
+
+[資源管理]
+- 物資管理
+- 貸出管理
+
+[運営管理]
+- ユーザー管理
+- 権限設定
+- 各種設定
+
+Interaction:
+- All groups collapsed by default
+- Accordion behavior (only one group open at a time)
+- Smooth expand/collapse animation
+
+Top area:
+- Logo (JoyLinks)
+- Simple search field
+
+Bottom area:
+- User settings
+- Logout
+
+Design:
+- Calm, clean, high-end enterprise style
+- Suitable for Japanese public sector staff
+- Easy for first-time users
+- Minimal icons
+- Clear spacing and typography
+
+Goal:
+Create a UI that feels highly organized, easy to use, and professionally engineered.
